@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.links_block {
+    background-color: gainsboro;
+    width: 300px;
+    height: 230px;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin: 50px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.link_to_db {
+    background-color: #f0f0f0;
+    width: 80%;
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
